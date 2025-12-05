@@ -1,10 +1,10 @@
 
 const clientes = [
-    { nombre: "Diunsa", logo: "../imagenes/Diunsa.jpg" },
-    { nombre: "Pepsi", logo: "../imagenes/Pepsi.jpg" },
-    { nombre: "BAC", logo: "../imagenes/BAC.jpg" },
-    { nombre: "Tigo", logo: "../imagenes/Tigo.jpg" },
-    { nombre: "Honduras Maya", logo: "../imagenes/HM.jpg" }
+    { nombre: "Diunsa", logo: "Diunsa.jpg" },
+    { nombre: "Pepsi", logo: "Pepsi.jpg" },
+    { nombre: "BAC", logo: "BAC.jpg" },
+    { nombre: "Tigo", logo: "Tigo.jpg" },
+    { nombre: "Honduras Maya", logo: "HM.jpg" }
 ];
 
 const contenedor = document.getElementById("clientesContainer");

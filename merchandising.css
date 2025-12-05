@@ -61,7 +61,7 @@ header .searchform input {
 }
 
 .hero {
-    background: url("../Imagenes/Merchandising.jpg") center/cover no-repeat;
+    background: url("Merchandising.jpg") center/cover no-repeat;
     min-height: 50vh;
     display: flex;
     align-items: center;
