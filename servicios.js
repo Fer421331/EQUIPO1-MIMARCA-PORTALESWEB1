@@ -7,8 +7,8 @@ const servicios = [
     { titulo: "Producción Publicitaria", descripcion: "Impresión, montaje y fabricación de piezas visuales para campañas." }
 ];
 
+const cards = document.querySelectorAll(".servicio-card");
 
-const cards = document.querySelectorAll(".cliente-card");
 cards.forEach((card, i) => {
     card.querySelector("h3").textContent = servicios[i].titulo;
     card.querySelector("p").textContent = servicios[i].descripcion;
